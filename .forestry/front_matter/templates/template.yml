@@ -1,0 +1,37 @@
+---
+label: template
+hide_body: false
+display_field: title
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+- type: text
+  name: title
+  label: title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: author
+  type: text
+  config:
+    required: false
+  label: author
+- name: category
+  type: text
+  config:
+    required: false
+  label: category
+- name: tags
+  type: text
+  config:
+    required: false
+  label: tags

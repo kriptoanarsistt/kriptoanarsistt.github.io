@@ -1,0 +1,26 @@
+header_pages:
+  - index.md
+  - about.md
+  - hof.md
+  - medium.md
+  - blog.md
+  - linkedin.md
+  - github.md
+  - twitter.md
+  - hackerone.md
+  - bugcrowd.md
+  - exploit-db.md
+  
+style: hacker
+
+footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+
+# Build settings
+markdown: kramdown
+remote_theme: b2a3e8/jekyll-theme-console
+footer: 'follow me on <a href="https://twitter.com/ahmetumitbayram">twitter</a>'
+
+plugins:
+  - jekyll-seo-tag
+
+url: 'https://ahmetumitbayram.github.io'
